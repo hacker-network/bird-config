@@ -5,3 +5,6 @@ define OWNNET42v4 = 172.23.13.96/27;
 define OWNNET42v6 = fdfd:4acc:e2::/48;
 define OWNNETSET42v4 = [172.23.13.96/27+];
 define OWNNETSET42v6 = [fdfd:4acc:e2::/48+];
+
+define OWNNETSETLOCALv4 = [];
+define OWNNETSETLOCALv6 = [];
