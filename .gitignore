@@ -1,5 +1,5 @@
 /local.conf
 /peers/*
-/roa_dn42.conf
-/roa_dn42_v6.conf
+/dn42_roa_v4.conf
+/dn42_roa_v6.conf
 /envvars
