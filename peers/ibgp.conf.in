@@ -1,5 +1,5 @@
-# Comment out this node itself and save it to peers/ibgp.conf
+# Comment out this node itself and save it to ibgp.conf
 
-include "ibgp_nodes/lax1.conf";
-include "ibgp_nodes/lax2.conf";
-include "ibgp_nodes/scarlet.conf";
+include "../ibgp_nodes/lax1.conf";
+include "../ibgp_nodes/lax2.conf";
+include "../ibgp_nodes/scarlet.conf";
