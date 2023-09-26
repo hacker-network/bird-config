@@ -1,4 +1,5 @@
 /local.conf
+/preload/*
 /peers/*
 !/peers/ibgp.conf.in
 /dn42_roa_v4.conf
