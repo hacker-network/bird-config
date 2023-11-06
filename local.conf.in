@@ -7,4 +7,3 @@ define OWNNETSET42v4 = [172.23.13.96/27+, 172.23.45.64/26+];
 define OWNNETSET42v6 = [fdfd:4acc:e2::/48+];
 
 define OWNNETSETLOCALv4 = [192.168.224.0/19+];
-define OWNNETSETLOCALv6 = [];
