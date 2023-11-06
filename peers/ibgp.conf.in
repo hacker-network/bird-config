@@ -3,3 +3,5 @@
 include "../ibgp_nodes/lax1.conf";
 include "../ibgp_nodes/lax2.conf";
 include "../ibgp_nodes/scarlet.conf";
+include "../ibgp_nodes/sgp1.conf";
+include "../ibgp_nodes/tyo1.conf";
