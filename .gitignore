@@ -2,7 +2,7 @@
 /preload/*
 !/preload/_.conf
 /peers/*
-!/peers/ibgp.conf.in
+!/peers/*.conf.in
 /dn42_roa_v4.conf
 /dn42_roa_v6.conf
 /envvars

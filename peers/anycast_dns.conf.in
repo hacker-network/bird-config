@@ -1,0 +1,35 @@
+# Use along with https://github.com/hacker-network/anycast-dns
+
+protocol ospf v3 anycast_dns_v4 {
+	ipv4 {
+		table igp4;
+		import all;
+		export none;
+	};
+	area 0 {
+		interface "docker53" {
+			type broadcast;
+			cost 1;
+			hello 2;
+			retransmit 2;
+			dead count 2;
+		};
+	};
+}
+
+protocol ospf v3 anycast_dns_v6 {
+	ipv6 {
+		table igp6;
+		import all;
+		export none;
+	};
+	area 0 {
+		interface "docker53" {
+			type broadcast;
+			cost 1;
+			hello 2;
+			retransmit 2;
+			dead count 2;
+		};
+	};
+}
