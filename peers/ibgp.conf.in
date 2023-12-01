@@ -1,8 +1,8 @@
 # Comment out this node itself and save it to ibgp.conf
 
-include "../ibgp_nodes/lax1.conf";
-include "../ibgp_nodes/lax2.conf";
-include "../ibgp_nodes/scarlet.conf";
-include "../ibgp_nodes/sgp1.conf";
-include "../ibgp_nodes/tyo1.conf";
-include "../ibgp_nodes/tyo2.conf";
+include "../bgp/ibgp_nodes/lax1.conf";
+include "../bgp/ibgp_nodes/lax2.conf";
+include "../bgp/ibgp_nodes/scarlet.conf";
+include "../bgp/ibgp_nodes/sgp1.conf";
+include "../bgp/ibgp_nodes/tyo1.conf";
+include "../bgp/ibgp_nodes/tyo2.conf";
