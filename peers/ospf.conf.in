@@ -1,0 +1,24 @@
+# Configure areas inside ospf.conf.areas in order to prevent duplication of
+# both IP stack.
+
+protocol ospf v3 ospf4 {
+  ipv4 {
+    table igp4;
+    import where is_self_net();
+    #import all;
+    export all;
+  };
+  include "ospf.conf.areas";
+}
+
+protocol ospf v3 ospf6 {
+  ipv6 {
+    table igp6;
+    import where is_self_net();
+    #import all;
+    export all;
+  };
+  include "ospf.conf.areas";
+}
+
+#include "../igp/exit.conf";
