@@ -1,10 +1,10 @@
 define OWNAS42 = 4242421330;
-define OWNIP42v4 = @@OWNIP42v4@@;
-define OWNIP42v6 = @@OWNIP42v6@@;
-define OWNNET42v4 = @@OWNNET42v4@@;
-define OWNNET42v6 = @@OWNNET42v6@@;
-define OWNREGION = @@OWNREGION@@;
-define OWNCOUNTRY = @@OWNCOUNTRY@@;
+define OWNIP42v4 = {{ ip42v4 }};
+define OWNIP42v6 = {{ ip42v6 }};
+define OWNNET42v4 = {{ net42v4 }};
+define OWNNET42v6 = {{ net42v6 }};
+define OWNREGION = {{ region }};
+define OWNCOUNTRY = {{ country }};
 
 define OWNNETSET42v4 = [172.23.13.96/27+, 172.23.45.64/26+];
 define OWNNETSET42v6 = [fdfd:4acc:e2::/48+];
