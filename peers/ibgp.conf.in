@@ -7,4 +7,5 @@ include "../bgp/ibgp_nodes/sgp1.conf";
 include "../bgp/ibgp_nodes/tyo1.conf";
 include "../bgp/ibgp_nodes/tyo2.conf";
 include "../bgp/ibgp_nodes/hkg1.conf";
+include "../bgp/ibgp_nodes/hkg2.conf";
 include "../bgp/ibgp_nodes/szx1.conf";
