@@ -2,9 +2,7 @@
 
 include "../bgp/ibgp_nodes/lax1.conf";
 include "../bgp/ibgp_nodes/lax2.conf";
-include "../bgp/ibgp_nodes/scarlet.conf";
 include "../bgp/ibgp_nodes/sgp1.conf";
-include "../bgp/ibgp_nodes/tyo1.conf";
 include "../bgp/ibgp_nodes/tyo2.conf";
 include "../bgp/ibgp_nodes/hkg1.conf";
 include "../bgp/ibgp_nodes/szx1.conf";
