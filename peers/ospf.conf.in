@@ -4,7 +4,7 @@
 protocol ospf v3 ospf4 {
   ipv4 {
     table igp4;
-    import where is_self_net();
+    import where is_propagated_net();
     #import all;
     export all;
   };
@@ -14,7 +14,7 @@ protocol ospf v3 ospf4 {
 protocol ospf v3 ospf6 {
   ipv6 {
     table igp6;
-    import where is_self_net();
+    import where is_propagated_net();
     #import all;
     export all;
   };
