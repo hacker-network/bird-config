@@ -1,6 +1,5 @@
 # Comment out this node itself and save it to ibgp.conf
 
-include "../bgp/ibgp_nodes/hkg1.conf";
 include "../bgp/ibgp_nodes/hkg2.conf";
 include "../bgp/ibgp_nodes/hkg3.conf";
 include "../bgp/ibgp_nodes/hkg4.conf";
