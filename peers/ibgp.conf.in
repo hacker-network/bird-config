@@ -8,3 +8,4 @@ include "../bgp/ibgp_nodes/lux1.conf";
 include "../bgp/ibgp_nodes/mci1.conf";
 include "../bgp/ibgp_nodes/stl1.conf";
 include "../bgp/ibgp_nodes/szx1.conf";
+include "../bgp/ibgp_nodes/szx2.conf";
